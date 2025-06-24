@@ -19,8 +19,6 @@ registration_date_month_ru: |
 accommodation_date_begin: "{{ accommodation_dates.begin }}"
 accommodation_date_end: "{{ accommodation_dates.end }}"
 
-full_contract_price: "{{ room_price_int * (accommodation_dates.duration.days + 1) }}"
-
 roommate_num_0:       "{% if answer_group_roommates.length > 0 %}1{% endif %}"
 roommate_name_0:      "{% if answer_group_roommates.length > 0 %}{{ answer_group_roommates['values'][0]['roommate_name'] }}{% endif %}"
 roommate_birthdate_0: "{% if answer_group_roommates.length > 0 %}{{ answer_group_roommates['values'][0]['roommate_birthdate'] }}{% endif %}"
