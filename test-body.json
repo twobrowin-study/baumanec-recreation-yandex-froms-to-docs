@@ -1,0 +1,191 @@
+{
+    "form_name": "Документы для базы отдыха 2025",
+    "answer": {
+        "id": 2093788047,
+        "uid": "575898249",
+        "data": {
+            "contract_number": {
+                "value": "1",
+                "question": {
+                    "id": 83296511,
+                    "slug": "contract_number",
+                    "options": {
+                        "required": false
+                    },
+                    "answer_type": {
+                        "id": 1,
+                        "slug": "answer_short_text"
+                    }
+                }
+            },
+            "client_name": {
+                "value": "Дубровин Егор Николаевич",
+                "question": {
+                    "id": 83296315,
+                    "slug": "client_name",
+                    "options": {
+                        "required": false
+                    },
+                    "answer_type": {
+                        "id": 1,
+                        "slug": "answer_short_text"
+                    }
+                }
+            },
+            "client_birthdate": {
+                "value": "1998-04-04",
+                "question": {
+                    "id": 83400188,
+                    "slug": "client_birthdate",
+                    "options": {
+                        "required": false,
+                        "date_range": false
+                    },
+                    "answer_type": {
+                        "id": 39,
+                        "slug": "answer_date"
+                    }
+                }
+            },
+            "client_phone": {
+                "value": "+7 916 077-38-29",
+                "question": {
+                    "id": 83296723,
+                    "slug": "client_phone",
+                    "options": {
+                        "required": false
+                    },
+                    "answer_type": {
+                        "id": 38,
+                        "slug": "answer_phone"
+                    }
+                }
+            },
+            "room_number": {
+                "value": "1",
+                "question": {
+                    "id": 83296544,
+                    "slug": "room_number",
+                    "options": {
+                        "required": false
+                    },
+                    "answer_type": {
+                        "id": 1,
+                        "slug": "answer_short_text"
+                    }
+                }
+            },
+            "body_name": {
+                "value": "2",
+                "question": {
+                    "id": 83296568,
+                    "slug": "body_name",
+                    "options": {
+                        "required": false
+                    },
+                    "answer_type": {
+                        "id": 1,
+                        "slug": "answer_short_text"
+                    }
+                }
+            },
+            "room_price_int": {
+                "value": "1000",
+                "question": {
+                    "id": 83296571,
+                    "slug": "room_price_int",
+                    "options": {
+                        "required": false
+                    },
+                    "answer_type": {
+                        "id": 1,
+                        "slug": "answer_short_text"
+                    }
+                }
+            },
+            "accommodation_dates": {
+                "value": {
+                    "end": "2025-06-27",
+                    "begin": "2025-06-25"
+                },
+                "question": {
+                    "id": 83296594,
+                    "slug": "accommodation_dates",
+                    "options": {
+                        "required": false,
+                        "date_range": true
+                    },
+                    "answer_type": {
+                        "id": 39,
+                        "slug": "answer_date"
+                    }
+                }
+            },
+            "answer_group_roommates": {
+                "value": [
+                    {
+                        "roommate_name": {
+                            "value": "Иванов Иван Иванович",
+                            "question": {
+                                "id": 83398224,
+                                "slug": "roommate_name",
+                                "options": {
+                                    "required": false
+                                },
+                                "answer_type": {
+                                    "id": 1,
+                                    "slug": "answer_short_text"
+                                }
+                            }
+                        },
+                        "roommate_birthdate": {
+                            "value": "2025-06-25",
+                            "question": {
+                                "id": 83399400,
+                                "slug": "roommate_birthdate",
+                                "options": {
+                                    "required": false,
+                                    "date_range": false
+                                },
+                                "answer_type": {
+                                    "id": 39,
+                                    "slug": "answer_date"
+                                }
+                            }
+                        },
+                        "roommate_phone": {
+                            "value": "+7 916 077-38-29",
+                            "question": {
+                                "id": 83398281,
+                                "slug": "roommate_phone",
+                                "options": {
+                                    "required": false
+                                },
+                                "answer_type": {
+                                    "id": 38,
+                                    "slug": "answer_phone"
+                                }
+                            }
+                        }
+                    }
+                ],
+                "question": {
+                    "id": 83382212,
+                    "slug": "answer_group_roommates",
+                    "options": {
+                        "required": false
+                    },
+                    "answer_type": {
+                        "id": 40,
+                        "slug": "answer_group"
+                    }
+                }
+            }
+        },
+        "survey": {
+            "id": "68581b30f47e7354135a249e"
+        },
+        "created": "2025-06-24T00:02:57Z",
+        "cloud_uid": "ajega0tv9kglj6viocve"
+    }
+}
